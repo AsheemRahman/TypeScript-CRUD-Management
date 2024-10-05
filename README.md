@@ -28,30 +28,38 @@ This is a CRUD (Create, Read, Update, Delete) application built using TypeScript
 - npm or yarn package manager
 
 ### Installation
-
 1. Clone the repository:
-   *  git clone https://github.com/AsheemRahman/TypeScript-CRUD-Management.git
+
+* git clone https://github.com/AsheemRahman/TypeScript-CRUD-Management.git
+
 2.Navigate to the project directory:
   
-   *  cd TypeScript-CRUD-Management.
+* cd TypeScript-CRUD-Management.
 
 3.Install the dependencies
-   *  npm install
+
+* npm install
 
 4.Running the Application
+
 To start the application, use the following command:
-   * npm start
+
+* npm start
 
 
 ## API Endpoints
- * GET /api/students - Fetch all students
- * POST /api/students - Create a new student
- * PUT /api/students/:id - Update a student by ID
- * DELETE /api/students/:id - Delete a student by ID
+
+ * GET http://localhost:8080/ - Fetch all students
+ * GET http://localhost:8080/ - Fetch single student by ID
+ * POST http://localhost:8080/ - Create a new student
+ * PUT http://localhost:8080/:id - Update a student by ID
+ * DELETE http://localhost:8080/:id - Delete a student by ID
 
 ## Usage
+
 * Use a tool like Postman or your browser to interact with the API endpoints.
 * You can create, update, or delete student records as needed.
 
 ## Error Handling
+
 The application implements proper error handling for API requests. If an error occurs, an appropriate message will be returned.
