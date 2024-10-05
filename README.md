@@ -49,11 +49,11 @@ To start the application, use the following command:
 
 ## API Endpoints
 
- * GET http://localhost:8080/ - Fetch all students
- * GET http://localhost:8080/ - Fetch single student by ID
- * POST http://localhost:8080/ - Create a new student
- * PUT http://localhost:8080/:id - Update a student by ID
- * DELETE http://localhost:8080/:id - Delete a student by ID
+ * GET /api/ - Fetch all students
+ * GET /api/:id - Fetch single student by ID
+ * POST /api/ - Create a new student
+ * PUT /api/:id - Update a student by ID
+ * DELETE /api/:id - Delete a student by ID
 
 ## Usage
 
