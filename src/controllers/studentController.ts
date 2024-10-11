@@ -1,6 +1,7 @@
 import {Response,Request} from 'express';
 import { StudentSerivces } from '../services/studentServices';
 
+
 export class StudentController {
     constructor(
         private studentSerivces:StudentSerivces
@@ -55,7 +56,7 @@ export class StudentController {
         const id = Number(req.params.id);
         const deleted = this.studentSerivces.deleteStudent(id)
         if(deleted){
-            res.status(204).json()
+            res.status(204).json({message: 'Student is deleted  '})
         }else{
             res.status(404).json({message: 'Student not found'})
         }
